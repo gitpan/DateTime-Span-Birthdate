@@ -2,7 +2,7 @@ package DateTime::Span::Birthdate;
 
 use strict;
 use base qw( DateTime::Span );
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Carp;
 use DateTime;
@@ -87,6 +87,6 @@ it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-L<DateTime::Span>, L<Date::Range::Birthdate>
+L<DateTime::Span>, L<Date::Range::Birth>
 
 =cut
